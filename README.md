@@ -80,5 +80,5 @@ Each dialog contains in training, validation and test datasets follows the JSON 
 ### Submission
 
 ### Organizers
-[Lazaros Polymenakos](mailto:lcpolyme@us.ibm.com), [Chulaka Gunasekara](mailto:chulaka.gunasekara@ibm.com) – IBM Research AI
+[Lazaros Polymenakos](mailto:lcpolyme@us.ibm.com), [Chulaka Gunasekara](mailto:chulaka.gunasekara@ibm.com) – IBM Research AI <br>
 [Walter Lasecki](mailto:wlasecki@umich.edu), [Jonathan K. Kummerfeld](mailto:jkummerf@umich.edu) – University of Michigan
