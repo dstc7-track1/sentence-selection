@@ -23,6 +23,14 @@ The description of the subtasks is given in the table below. [x] suggest that th
 |4|Select the next utterance from a candidate pool of 100 which might not contain the correct next utterance|  [x] |  [x]  |
 |5|Select the next utterance from a candidate pool of 100 incorporating the provided external knowledge|  [x] |  [x]  |
 
+In **subtask 1**, for each partial dialog and a candidate pool of 100 is given and the contenstants are expected to select the best next utterance from the given pool. <br>
+In **subtask 2**, one large candidate pool of 120000 utterances is shared by training and validation datasets. The next best utterance should be selected from this large pool of candidate utterances. <br>
+For **subtask 3**, in addition to the the training and validation dialog datasets, and extra dataset which includes paraphrases for utterances is provided. The contestants are required to use the paraphrase informaton to select the next utterance as well as its paraphrases from the given set of 100 candidates. <br>
+The candidate sets that are provided for some dialogs in  **subtask 4** does not include the correct next utterance. The contestants are expected to train their models in a way that during testing they can identify such cases. <br>
+In **subtask 5**, additional external information which will be important for dialog modeling will be provided. For Ubuntu dataset, this external information comes in the form of Linux manual pages and for Flex dataset, extra information about courses will be given. The same training, validation and test data files in subtask 1 will be reused for this subtask. The contestants can use the provided knowledge sources as is, or  transform them to appropriate representations (e.g. knowledge graphs,
+continuous embeddings, etc.) that can be integrated with end-to-end dialog systems to improve accuracy.
+
+
 ### Data
 #### Datasets
 The datasets can be downloaded from the following links.
@@ -34,10 +42,6 @@ The datasets can be downloaded from the following links.
 | 3  |[Flex](https://ibm.box.com/s/kfev11bqpsvhwl8u2ko4fxb11kl9satq) |  [Flex](https://ibm.box.com/s/vhwmnt0kg1j1vx1j5wijez67mhjxjlnc) |[Paraphrase information](https://ibm.box.com/s/qh9gbkjo8pg8uph3vysv9fjhp18407fx)|
 | 4  | [Ubuntu](https://ibm.box.com/s/ss7vaagg83qsycjv38bce6i8wsze8p9k) <br>[Flex](https://ibm.box.com/s/4p31ja8p83fehes0f6cuakr2wbdd4px9) | [Ubuntu](https://ibm.box.com/s/6jmxiavc50achlr7k4g5i5lgyspcsqbg) <br> [Flex](https://ibm.box.com/s/6jq99o1cz9m3env319s6e02ibtwksc1b) |None|
 | 5  | Same as subtask 1| Same as subtask 1 |[Linux man pages for Ubuntu](https://ibm.box.com/s/7ro3t72tp0rcnggq5cgq9hq80fvh5pkh) <br> [Course information for Flex](https://ibm.box.com/s/lslz39r951fys52qqa3enl0ccods5lus)|
-
-
-
-
 
 
 #### Data format
@@ -81,11 +85,8 @@ Each dialog contains in training, validation and test datasets follows the JSON 
 ### Evaluation
 
 ### Submission
+Information regarding the submission will be released soon.
 
 ### Organizers
 [Lazaros Polymenakos](mailto:lcpolyme@us.ibm.com), [Chulaka Gunasekara](mailto:chulaka.gunasekara@ibm.com) – IBM Research AI <br>
 [Walter Lacecki](mailto:wlasecki@umich.edu), [Jonathan K. Kummerfeld](mailto:jkummerf@umich.edu) – University of Michigan
-
-
-
-
