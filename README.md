@@ -33,7 +33,7 @@ The datasets can be downloaded from the following links.
 | 2  | [Ubuntu](https://ibm.box.com/s/i9o9gz37leycvxfqgdabh7478ep1dqo7)| [Ubuntu](https://ibm.box.com/s/ha4lcw6cjcwq6wseq5qv0t6ogxat2fhl) |[Candidate pool](https://ibm.box.com/s/uvwrmpzyt231ktl0kpcneheba8qi2ytf)|
 | 3  |[Flex](https://ibm.box.com/s/kfev11bqpsvhwl8u2ko4fxb11kl9satq) |  [Flex](https://ibm.box.com/s/vhwmnt0kg1j1vx1j5wijez67mhjxjlnc) |[Paraphrase information](https://ibm.box.com/s/qh9gbkjo8pg8uph3vysv9fjhp18407fx)|
 | 4  | [Ubuntu](https://ibm.box.com/s/ss7vaagg83qsycjv38bce6i8wsze8p9k) <br>[Flex](https://ibm.box.com/s/4p31ja8p83fehes0f6cuakr2wbdd4px9) | [Ubuntu](https://ibm.box.com/s/6jmxiavc50achlr7k4g5i5lgyspcsqbg) <br> [Flex](https://ibm.box.com/s/6jq99o1cz9m3env319s6e02ibtwksc1b) |None|
-| 5  | Same as subtask 1| Same as subtask 1 |[Linux]||
+| 5  | Same as subtask 1| Same as subtask 1 |[Linux]|||
 
 
 
@@ -81,4 +81,4 @@ Each dialog contains in training, validation and test datasets follows the JSON 
 
 ### Organizers
 [Lazaros Polymenakos](mailto:lcpolyme@us.ibm.com), [Chulaka Gunasekara](mailto:chulaka.gunasekara@ibm.com) – IBM Research AI
-[Walter Lacecki](mailto:wlasecki@umich.edu), [Jonathan K. Kummerfeld](mailto:jkummerf@umich.edu) – University of Michigan
+[Walter Lasecki](mailto:wlasecki@umich.edu), [Jonathan K. Kummerfeld](mailto:jkummerf@umich.edu) – University of Michigan
