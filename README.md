@@ -1,4 +1,6 @@
-# Dialog System Technology Challenges 7 (DSTC 7) Track 1 - Sentence Selection
+# Dialog System Technology Challenges 7 (DSTC 7) 
+
+## Track 1 - Sentence Selection
 
 This challenge provides a partial conversation, and requires participants to select the correct next utterances from a set of candidates.
 Unlike previous similar challenges, this task tries to push towards real world problems by introducing:
