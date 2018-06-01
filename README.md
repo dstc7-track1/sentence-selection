@@ -129,4 +129,4 @@ Information regarding how to submit will be released later in the development pe
 
 [Lazaros Polymenakos](mailto:lcpolyme@us.ibm.com), [Chulaka Gunasekara](mailto:chulaka.gunasekara@ibm.com) – IBM Research AI
 
-[Walter Lacecki](mailto:wlasecki@umich.edu), [Jonathan K. Kummerfeld](www.jkk.name) – University of Michigan
+[Walter Lacecki](mailto:wlasecki@umich.edu), [Jonathan K. Kummerfeld](http://www.jkk.name) – University of Michigan
