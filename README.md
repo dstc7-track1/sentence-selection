@@ -74,7 +74,7 @@ The datasets can be downloaded from the following links.
 | 4  | [Ubuntu](https://ibm.box.com/s/ss7vaagg83qsycjv38bce6i8wsze8p9k) <br>[Advising](https://ibm.box.com/s/4p31ja8p83fehes0f6cuakr2wbdd4px9) | [Ubuntu](https://ibm.box.com/s/6jmxiavc50achlr7k4g5i5lgyspcsqbg) <br> [Advising](https://ibm.box.com/s/6jq99o1cz9m3env319s6e02ibtwksc1b) |None|
 | 5  | Same as subtask 1| Same as subtask 1 |[Linux man pages for Ubuntu](https://ibm.box.com/s/7ro3t72tp0rcnggq5cgq9hq80fvh5pkh) <br> [Course information for Advising](https://ibm.box.com/s/lslz39r951fys52qqa3enl0ccods5lus)|
 
-Additionally, for the Advising data, we are providing a form of the data with the original dialogues and their paraphrases before remixing, which can be used for training in any subtask ([here](https://ibm.box.com/s/qh9gbkjo8pg8uph3vysv9fjhp18407fx)|).
+Additionally, for the Advising data, we are providing a form of the data with the original dialogues and their paraphrases before remixing, which can be used for training in any subtask [here](https://ibm.box.com/s/qh9gbkjo8pg8uph3vysv9fjhp18407fx).
 
 #### Data format
 Each dialog contains in training, validation and test datasets follows the JSON format which is similar to the below example.
