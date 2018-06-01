@@ -10,6 +10,7 @@ Unlike previous similar challenges, this task tries to push towards real world p
 This challenge is offered with two goal oriented dialog datasets, used in 5 subtasks.
 A participant may participate in one, several, or all the subtasks.
 A full description of the track is available [here](http://workshop.colips.org/dstc7/proposals/DSTC%207%20Task%20Description%20-%20NOESIS_final.pdf "here").
+***Please visit this webpage often to remain updated about baseline results and more material.***
 
 ### Ubuntu dataset
 
@@ -110,10 +111,11 @@ Each dialog contains in training, validation and test datasets follows the JSON 
     "scenario": 1
 }
 ```
+The field `messages-so-far` contains the context of the dialog and `options-for-next` contains the candidates to select the next utterance from. The correct next utterance is given in the field `options-for-correct-answers`. The field `scenario` refers to the subtask.
 
 ## Evaluation
 
-For each test instance, we will expect you to return a set of 10 choices from the set of possible follow-up sentences and a probability distribution over those 10 choices.
+For each test instance, we will expect you to return a set of 10 choices (candidate ids) from the set of possible follow-up sentences and a probability distribution over those 10 choices.
 For the competition metric we will consider the choices that cover 90% of the distribution, and compute an F-score as the harmonic mean of precision and recall:
 
 - Precision = (number of correct sentences selected) / (total number of sentences selected)
@@ -127,6 +129,5 @@ Information regarding how to submit will be released later in the development pe
 
 ### Organizers
 
-[Lazaros Polymenakos](mailto:lcpolyme@us.ibm.com), [Chulaka Gunasekara](mailto:chulaka.gunasekara@ibm.com) – IBM Research AI
-
-[Walter Lacecki](mailto:wlasecki@umich.edu), [Jonathan K. Kummerfeld](http://www.jkk.name) – University of Michigan
+[Lazaros Polymenakos](mailto:lcpolyme@us.ibm.com), [Chulaka Gunasekara](mailto:chulaka.gunasekara@ibm.com) – IBM Research AI <br>
+[Walter Lasecki](mailto:wlasecki@umich.edu), [Jonathan K. Kummerfeld](http://www.jkk.name) – University of Michigan
