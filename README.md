@@ -1,6 +1,4 @@
-# Dialog System Technology Challenges 7 (DSTC 7) 
-
-## Track 1 - Sentence Selection
+# Dialog System Technology Challenges 7 (DSTC 7) Track 1 - Sentence Selection
 
 This challenge provides a partial conversation, and requires participants to select the correct next utterances from a set of candidates.
 Unlike previous similar challenges, this task tries to push towards real world problems by introducing:
@@ -11,7 +9,7 @@ Unlike previous similar challenges, this task tries to push towards real world p
 
 This challenge is offered with two goal oriented dialog datasets, used in 5 subtasks.
 A participant may participate in one, several, or all the subtasks.
-A full description of the track is available [here](http://workshop.colips.org/dstc7/proposals/DSTC%207%20Task%20Description%20-%20NOESIS_final.pdf "here").<br>
+A full description of the track is available [here](http://workshop.colips.org/dstc7/proposals/DSTC%207%20Task%20Description%20-%20NOESIS_final.pdf "here").
 ***Please visit this webpage often to remain updated about baseline results and more material.***
 
 ### Ubuntu dataset
@@ -64,17 +62,9 @@ The contestants can use the provided knowledge sources as is, or transform them 
 ## Data
 
 #### Datasets
-The datasets can be downloaded from the following links.
-
-| Subtask  | Training  | Validation   | Other|
-| ------------ | ------------ | ------------ | ------------ |
-| 1  | [Ubuntu](https://ibm.box.com/s/fsk885se8ieoape46uzk7ylhx1097kk9) <br>[Advising](https://ibm.box.com/s/sb5wloejbsbhrpfws0yuj1wbb28you2w) | [Ubuntu](https://ibm.box.com/s/rqb6bocovby1jau112y5wq99tz1fffp2) <br> [Advising](https://ibm.box.com/s/f53kcojriaqrj5taevtw3doaatq3sfjv) |None|
-| 2  | [Ubuntu](https://ibm.box.com/s/i9o9gz37leycvxfqgdabh7478ep1dqo7)| [Ubuntu](https://ibm.box.com/s/ha4lcw6cjcwq6wseq5qv0t6ogxat2fhl) |[Candidate pool](https://ibm.box.com/s/uvwrmpzyt231ktl0kpcneheba8qi2ytf)|
-| 3  |[Advising](https://ibm.box.com/s/kfev11bqpsvhwl8u2ko4fxb11kl9satq) |  [Advising](https://ibm.box.com/s/vhwmnt0kg1j1vx1j5wijez67mhjxjlnc) | None |
-| 4  | [Ubuntu](https://ibm.box.com/s/ss7vaagg83qsycjv38bce6i8wsze8p9k) <br>[Advising](https://ibm.box.com/s/4p31ja8p83fehes0f6cuakr2wbdd4px9) | [Ubuntu](https://ibm.box.com/s/6jmxiavc50achlr7k4g5i5lgyspcsqbg) <br> [Advising](https://ibm.box.com/s/6jq99o1cz9m3env319s6e02ibtwksc1b) |None|
-| 5  | Same as subtask 1| Same as subtask 1 |[Linux man pages for Ubuntu](https://ibm.box.com/s/7ro3t72tp0rcnggq5cgq9hq80fvh5pkh) <br> [Course information for Advising](https://ibm.box.com/s/lslz39r951fys52qqa3enl0ccods5lus)|
-
-Additionally, for the Advising data, we are providing a form of the data with the original dialogues and their paraphrases before remixing, which can be used for training in any subtask [here](https://ibm.box.com/s/qh9gbkjo8pg8uph3vysv9fjhp18407fx).
+The dataset will be available for the contestants upon registration through the following link. <br>
+https://goo.gl/forms/8GWj8B3XEv3jfo2v2 <br>
+***All the datasets will be publicaly available after the competition.***
 
 #### Data format
 Each dialog contains in training, validation and test datasets follows the JSON format which is similar to the below example.
